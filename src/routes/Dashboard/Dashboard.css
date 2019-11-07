@@ -1,0 +1,20 @@
+main {
+  background-color: #181a1b;
+  width: 100%;
+}
+
+main section {
+  height: calc(100vh - 99px);
+  vertical-align: top;
+}
+
+main .section-1 {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  padding: 5% 10% 0 10%;
+}
+
+.section-1 h6 {
+  color: #d34735;
+}

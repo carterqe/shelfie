@@ -13,3 +13,7 @@ massive(CONNECTION_STRING).then(databaseConnection => {
   app.listen(SERVER_PORT, () => console.log(`${SERVER_PORT} days of eternal peace left.`))
 })
 
+app.post('/api/inventory', controller.addInventory)
+app.get('/api/inventory', controller.getInventory)
+app.put('/api/inventory/:id', controller.updateInventory)
+app.delete('/api/inventory/:id', controller.deleteInventory)
